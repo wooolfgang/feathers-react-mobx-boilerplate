@@ -1,0 +1,13 @@
+{
+  "port": 3000,
+  "mongoURI": "mongodb://localhost:27017/----",
+  "auth": {
+    "path": "api/authentication",
+    "service": "api/users",
+    "secret": "9045699318",
+    "local": {
+      "usernameField": "username",
+      "passwordField": "password"
+    }
+  }
+}
