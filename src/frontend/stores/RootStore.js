@@ -1,5 +1,5 @@
 class RootStore {
-  constructor() {
+  constructor(client) {
 
   }
 }
