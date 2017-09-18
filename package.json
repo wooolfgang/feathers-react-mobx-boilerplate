@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "node -r babel-register src/backend/index.js",
-    "bundle": "webpack --watch"
+    "bundle": "webpack --watch",
+    "seed": "node -r babel-register src/backend/seeds/index.js"
   },
   "repository": {
     "type": "git",
