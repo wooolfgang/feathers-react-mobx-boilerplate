@@ -4,11 +4,8 @@
       "env",
       {
         "targets": {
-          "browsers": [
-            "last 2 versions"
-          ]
-        },
-        "node": true
+          "node": true
+        }
       }
     ],
     "react",
